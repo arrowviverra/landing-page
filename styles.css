@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    height: 48px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 12px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 48px;
+}
+
+.container {
+    width: 400px;
+}
+
+.hero .title {
+    display: flex;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FaF8;
+    flex-wrap: wrap;
+}
+
+.hero .text {
+    color: #E5E7EB;
+}
+
+button {
+    background-color:#3882F6;
+    color:#F9FaF8;
+    border: 1px solid #F9FaF8;
+    border-radius: 6px;
+    margin: 4px;
+    padding: 6px 16px;
+}
+
+.hero img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px
+}
+
+.content {
+    padding: 48px;
+    text-align: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.gallery {
+    margin: 24px;
+}
+
+.gallery img {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6;
+    border-radius: 6px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .source {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.call {
+    padding: 48px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 16px;
+}
+
+.callleft {
+    color:#F9FaF8;
+}
+
+.callheader {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#F9FaF8;
+    text-align: center;
+    padding: 24px;
+}
